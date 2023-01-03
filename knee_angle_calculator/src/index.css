@@ -18,8 +18,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #D9AFD9;
 background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
-
-  
   
 }
 
@@ -31,7 +29,7 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 
 .title {
   font-family: impact;
-  font-size: 140px;
+  font-size: 14vw;
   margin: 2vh auto;
   text-align: center;
 }
@@ -40,19 +38,11 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
   font-family: 'Permanent Marker', cursive;
   font-size: 40px;
   text-align: center;
-  margin-top: 5vh;
-}
-
-.webcam_wrapper {
-  border-radius: 10px;
-  
-  padding: -40vw;
-  overflow: hidden;
 }
 
 .display {
-  font-size: 105px;
-  margin-top: 78vh;
+  font-size: 60px;
+  margin-top: 50vh;
   margin-bottom: 5vh;
   
   text-align: center;
@@ -60,4 +50,23 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
   border: 15px solid #005282;
   width: 70vw;
   font-family: 'Baloo Da 2', cursive;
+}
+
+@media (max-width: 750px) {
+  .description {
+    margin-bottom: -10vh;
+    font-size: 5vw
+  }
+}
+
+@media (max-width: 1000px) {
+  .display{
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 700px) {
+  .title{
+    font-size: 100px;
+  }
 }
